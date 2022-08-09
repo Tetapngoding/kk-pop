@@ -52,11 +52,19 @@ function tampilkanHasil() {
 	// proses kalkulasi total
 
 	document.getElementById("total_hc").innerHTML = Math.floor(( hc - b_wadah_hc ) / kuah_perporsi_hc);
+	document.getElementById("total_hc2").innerHTML = Math.floor(( hc - b_wadah_hc ) / kuah_perporsi_hc);
 	document.getElementById("total_sc").innerHTML = Math.floor(( sc - b_wadah_sc ) / kuah_perporsi_sc);
+	document.getElementById("total_sc2").innerHTML = Math.floor(( sc - b_wadah_sc ) / kuah_perporsi_sc);
 	document.getElementById("total_tc").innerHTML = Math.floor(( tc - b_wadah_tc ) / kuah_perporsi_tc);
+	document.getElementById("total_tc2").innerHTML = Math.floor(( tc - b_wadah_tc ) / kuah_perporsi_tc);
 	document.getElementById("total_ty").innerHTML = Math.floor(( ty - b_wadah_ty ) / kuah_perporsi_ty);
+	document.getElementById("total_ty2").innerHTML = Math.floor(( ty - b_wadah_ty ) / kuah_perporsi_ty);
 	document.getElementById("total_pc").innerHTML = Math.floor(( pc - b_wadah_pc ) / kuah_perporsi_pc);
+	document.getElementById("total_pc2").innerHTML = Math.floor(( pc - b_wadah_pc ) / kuah_perporsi_pc);
 	document.getElementById("total_ks").innerHTML = Math.floor(( ks - b_wadah_ks ) / kuah_perporsi_ks);
+	document.getElementById("total_ks2").innerHTML = Math.floor(( ks - b_wadah_ks ) / kuah_perporsi_ks);
 	document.getElementById("total_lv").innerHTML = Math.floor(( lv - b_wadah_lv ) / kuah_perporsi_lv);
+	document.getElementById("total_lv2").innerHTML = Math.floor(( lv - b_wadah_lv ) / kuah_perporsi_lv);
 	document.getElementById("total_cy").innerHTML = Math.floor(( cy - b_wadah_cy ) / kuah_perporsi_cy);
+	document.getElementById("total_cy2").innerHTML = Math.floor(( cy - b_wadah_cy ) / kuah_perporsi_cy);
 }
